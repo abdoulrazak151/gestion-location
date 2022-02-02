@@ -1,0 +1,72 @@
+:root{
+    --background:#f5faff;
+}
+
+body{
+    background-color: var(--background);
+}
+
+.conteneur{
+    height: 30rem;
+    background-color: #fff;
+    width: 20rem;
+    box-shadow: 1px 0 2px 0 rgba(0,0,0,0.3);
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 8%;
+    margin-left: calc(50% - 10rem);
+}
+.conteneur .logo{
+    justify-content: center;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    /* background-image: url("ressources/images/logo.png"); */
+   
+    margin-left: -100px;
+    display: block;
+}
+.logo img{
+    position: relative;
+    height: 100px;
+    /* justify-content: center; */
+    /* width: auto; */
+    margin-left: 180%;
+}
+.conteneur p{
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+    font-size: 20px;
+}
+.conteneur div{
+    padding: 11px;
+    align-items: center;
+    
+}
+.conteneur span{
+    background-color: orangered;
+    padding: 16px;
+    border-radius: 10px 0 0 10px;
+}
+.conteneur div input{
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+}
+.conteneur .connexion{
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(180, 180, 180,0.1);
+    height: 40px;
+    border: 2px orangered;
+    margin-left: 100px;
+    opacity: 0.8;
+
+}
+.conteneur .connexion:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid orangered;    
+}
